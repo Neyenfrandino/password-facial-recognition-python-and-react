@@ -1,0 +1,11 @@
+face_recognition
+numpy
+opencv-python
+cmake 
+dlib
+
+fastapi
+uvicorn[standard]
+pydantic
+requests
+python-multipart

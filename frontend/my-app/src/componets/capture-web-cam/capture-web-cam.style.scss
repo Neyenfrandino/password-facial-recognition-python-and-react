@@ -1,0 +1,45 @@
+.capture-web-cam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    .capture-web-cam {
+
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 16px;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+  }
+
+
+.canvas-container {
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -63%);
+    border-radius: 5px;
+    pointer-events: none; // Para que el canvas no interrumpa los eventos del ratón
+    
+  }
+  
